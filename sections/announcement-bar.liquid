@@ -1,7 +1,9 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' and block.settings.show_announcement -%}
-	  {{block.settings.show_announcement}}
+		{%- if block.settings.show_announcement -%}
+			{{block.settings.show_announcement}}
+		{%- endif -%}
       <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
