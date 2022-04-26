@@ -103,6 +103,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+              "show_announcement": false,
+              "enable_payment_button": true,
               "text": "Welcome to our store",
               "color_scheme": "background-1",
               "link": ""
