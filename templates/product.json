@@ -131,7 +131,7 @@
         "49c961d6-8be6-4bc7-b98a-b245c4950493": {
           "type": "caption",
           "settings": {
-            "caption": "caption",
+            "caption": "caption {{ product.title }}",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
