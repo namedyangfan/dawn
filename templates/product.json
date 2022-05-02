@@ -170,11 +170,17 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "new-product-section": {
+      "type": "new-product-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
-    "product-recommendations"
+    "product-recommendations",
+    "new-product-section"
   ]
 }
