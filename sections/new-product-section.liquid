@@ -1,0 +1,29 @@
+{%- assign price = product.selected_or_first_avaliable_variant.price -%}
+
+<div class="product-single__title"> {{ product.title }} </div>>
+
+{% if section.settings.show_comment %}
+    <h2> Hand Made {{ price }}</h2>
+{% endif %}
+
+{% schema %}
+{
+    "name": "section name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+        "type": "checkbox",
+        "id": "show_comment",
+        "default": true,
+        "label": "show_comment"
+        }
+    ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
