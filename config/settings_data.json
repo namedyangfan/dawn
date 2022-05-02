@@ -105,7 +105,7 @@
             "settings": {
               "show_announcement": false,
               "enable_payment_button": true,
-              "text": "Welcome to our store",
+              "text": "{{ settings }}",
               "color_scheme": "background-1",
               "link": ""
             }
