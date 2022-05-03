@@ -7,6 +7,11 @@
     <h2> Hand Made {{ price }}</h2>
 {% endif %}
 
+{% if section.settings.tax_notice %}
+	tax notice
+{% endif %}
+
+
 {% schema %}
 {
     "name": "new product section",
