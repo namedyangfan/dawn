@@ -7,7 +7,7 @@
     <h2> Hand Made {{ price }}</h2>
 {% endif %}
 
-{% if section.settings.tax_notice %}
+{% if section.settings.tax_notice != blank %}
 	tax notice
 {% endif %}
 
