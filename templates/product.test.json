@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "new-product-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
