@@ -3,8 +3,6 @@
     "main": {
       "type": "new-product-section",
       "settings": {
-        "show_comment": true,
-        "tax_notice": "asd . sdsd {{ product.vendor }}"
       }
     }
   },
