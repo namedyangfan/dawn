@@ -10,8 +10,8 @@
     "second": {
       "type": "new-product-section",
       "settings": {
-        "show_comment": true,
-        "tax_notice": "asds"
+        "show_comment": false,
+        "tax_notice": ""
       }
     }
   },
